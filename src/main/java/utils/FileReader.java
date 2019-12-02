@@ -16,4 +16,9 @@ public class FileReader {
         File file = readFile(classLoader, relativeFilePath);
         return FileUtils.readLines(file, Charset.defaultCharset());
     }
+
+    public static String readFileAsString(ClassLoader classLoader, String relativeFilePath) throws IOException {
+        File file = readFile(classLoader, relativeFilePath);
+        return FileUtils.readFileToString(file, Charset.defaultCharset());
+    }
 }
