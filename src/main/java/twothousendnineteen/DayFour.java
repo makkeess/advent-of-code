@@ -1,26 +1,16 @@
 package twothousendnineteen;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
-import org.eclipse.collections.api.list.MutableList;
 import org.eclipse.collections.impl.list.Interval;
 
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-
-import static java.lang.Double.min;
-import static java.lang.Math.abs;
 
 public class DayFour {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         DayFour dayFour = new DayFour();
         System.out.println("Total number of matching passwords: " + dayFour.solvePartOne());
     }
