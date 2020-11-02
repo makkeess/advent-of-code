@@ -1,5 +1,7 @@
 package twothousendnineteen;
 
+import twothousendnineteen.intcode.IntcodeComputer;
+
 import java.io.IOException;
 import java.util.Arrays;
 
